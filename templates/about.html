@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+<ul>
+    <li><a href="/">Home Page</a></li>
+    <li><a href="#">About Page</a></li>
+</ul>
+
+{% block main %}
+<p>This is my about page</p>
+<form action="" method="post">
+    {{ form.csrf_token }}
+    {{ form.title.label }}
+    {{ form.title }}
+    {{ form.submit }}
+</form>
+{% endblock %}
