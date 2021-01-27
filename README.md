@@ -1,2 +1,2 @@
 # FlaskApp
-Basic web app using python and flask
+To-do web application using python, flask, html/css, and bootstrap
